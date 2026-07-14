@@ -1,8 +1,6 @@
 import os
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 class Settings(BaseSettings):
     PROJECT_NAME: str = "Conversational RAG Textbook Board"
     API_V1_STR: str = "/api"
@@ -19,8 +17,8 @@ class Settings(BaseSettings):
     CHAT_MODEL: str = "gemini-3.1-flash-lite"
     
     # Folder settings
-    UPLOAD_DIR: str = os.path.join(BACKEND_DIR, "uploads")
-    CHROMA_DB_DIR: str = os.path.join(BACKEND_DIR, "chroma_db")
+    UPLOAD_DIR: str = "uploads"
+    CHROMA_DB_DIR: str = "chroma_db"
 
     @property
     def is_gemini_configured(self) -> bool:

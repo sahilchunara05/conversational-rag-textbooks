@@ -4,9 +4,16 @@ A conversational AI school textbook assistant designed to help students study sm
 
 ---
 
-## 📸 Product Interface
+## 📸 Interface Screenshots
 
-![Chatbot Interface](assets/chatbot_interface.png)
+### 1. Chat Assistant Welcome Screen
+![Welcome Screen](assets/welcome_screen.png)
+
+### 2. Conversational RAG with Source Citations
+![Chat Interface](assets/chat_interface.png)
+
+### 3. Textbook Ingestion & Catalogue Manager
+![Upload Dashboard](assets/upload_dashboard.png)
 
 ---
 
