@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     # Gemini configurations
     GEMINI_API_KEY: str = ""
     EMBEDDING_MODEL: str = "gemini-embedding-2"
-    CHAT_MODEL: str = "gemini-3.5-flash"
+    CHAT_MODEL: str = "gemini-3.1-flash-lite"
     
     # Folder settings
     UPLOAD_DIR: str = "uploads"
